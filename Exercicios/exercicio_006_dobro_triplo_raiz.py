@@ -7,4 +7,5 @@ t = n*3
 r = n**(1/2)
 print('O dobro de {} vale {}.'.format(n, d))
 print('O triplo de {} vale {}.'.format(n, t))
-print('A raiz quadrada de {} vale {}.'.format(n, r))
+print('A raiz quadrada de {} vale {:.2f}.'.format(n, r))      #a formatação ':.2f' dentro das chaves serve para mostrar apenas dois números após a virgula
+
