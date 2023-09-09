@@ -4,7 +4,8 @@
 #o carro custa R$60 por dia e R%0,15 por KM rodado
 
 
+d = int(input('Por quantos dias o carro foi alugado? '))
 km = float(input('Quantos kms o carro percorreu? '))
-d = int(input('Quantos dias o carro foi alugado? '))
-v = float(input(km * 0,15 + 60 * d))
-print('O aluguel do carro que percorreu {}km com um total de {} dias, custará {} '.format(k, d, v))
+v_d = d * 60 + km * 0.15
+print('O valor do aluguel é de R${:.2f}.'.format(v_d))
+
