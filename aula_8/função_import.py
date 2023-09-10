@@ -9,6 +9,9 @@ print('A raiz quadrada de {} é {:.2f}. '.format(num, raiz))
 
 #para arredondar para baixo use math.floor(raiz)
 
+#para mostrar a parte inteira de um número real use
+# .format(math.trunc(variavel_desejada))
+
 
 
 
